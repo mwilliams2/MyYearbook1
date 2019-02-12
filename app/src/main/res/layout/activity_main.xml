@@ -1,29 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:text="My Yearbook"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:background="#2196f3"
-        android:text=" Matt Williams
- I build less cool stuff"
-        android:textColor="#AED581"
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="645dp"
-        />
+        android:textColor="@android:color/white"
+        android:textSize="54sp"
+        android:background="#009688"
+        android:layout_weight="0" />
 
     <ImageView
         android:src="@drawable/maleavatar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="center"/>
+        android:layout_height="0dp"
+        android:layout_weight="1" />
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:src="@drawable/yearbook"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1" />
+
+
+
+        />
+
+
+
+
+
